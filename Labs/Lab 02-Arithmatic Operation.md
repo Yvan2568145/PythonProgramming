@@ -110,3 +110,33 @@ The car will travel 40 meters in 2 seconds.
 Enter time for car (in seconds): 3
 The car will travel 60 meters in 3 seconds.
 ```
+# Question 1: Calculate the height of a ball
+
+# Write your code here.
+
+
+
+
+
+
+# Question 1: Calculate the height of the ball
+
+h0 = float(input("Enter initial height: "))
+t = float(input("Enter time: "))
+g = 9.8
+
+# Calculate the height of the ball
+h = h0 - 0.5 * g * t * t
+
+print("Height of the ball at time", t, "seconds =", h, "meters")
+
+
+# Question 2: Calculate the distance travelled by the car
+
+t = float(input("Enter time for car (in seconds): "))
+speed = 20
+
+# Calculate the distance
+d = speed * t
+
+print("The car will travel", d, "meters in", t, "seconds.")
